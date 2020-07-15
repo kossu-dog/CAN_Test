@@ -7,7 +7,7 @@ No/very minimal error checking is done. For blocking error checking modify `Erro
 ## How to use
 * Create new STM32 project, initialise CAN in master mode with Tq = 500ns, BS1 = 13, BS2 = 2, SJW = 1. Enable NVIC interrupt for CAN RX0. This sets CAN bitrate to 125k with 16 BTq, 87.5% sample point.
 * Clone/copy repository.
-* Add `can_rxtx_test.c` and `can_rxtx_test.h` to project directory `/Scr`.
+* Add `can_test.c` and `can_test.h` to project directory `/Scr`.
 * Either copy (replacing original) `main.c` to `/Scr` directory, or add/modify the following lines to `main.c`.
 ```
 /* USER CODE BEGIN Includes */
