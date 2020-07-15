@@ -1,0 +1,19 @@
+# STM32CubeMX Generated folders
+.settings/
+Drivers/
+Debug/
+startup/
+
+# STM32CubeMX settings files
+# .cproject serves as an entry file for project. May consider of  putting back
+.cproject   
+.mxproject
+.project
+QUTMS_STM32_CAN_Networking.ioc
+QUTMS_STM32_CAN_Networking.elf.launch
+STM32F042K6_FLASH.ld
+
+# source files. The board specific are in the main.h
+Inc/
+Src/stm*
+Src/sys*
